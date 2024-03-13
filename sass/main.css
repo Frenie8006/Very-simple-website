@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #222;
+  line-height: 1.6;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f4f4f4;
+  padding: 2rem 0;
+}
+.header__logo {
+  font-size: 4rem;
+  color: #333;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.header .nav .nav-link:link,
+.header .nav .nav-link:visited {
+  color: #555;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.header .nav li:not(:last-child) {
+  margin-right: 5rem;
+}
+
+.section-hero {
+  background-color: #6db3f8;
+  color: #fff;
+  padding: 9.6rem 0;
+}
+.section-hero .hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section-hero .hero-box {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.section-hero .hero-line {
+  font-size: 4rem;
+  font-weight: 300;
+}
+.section-hero .hero-icon {
+  font-size: 5rem;
+}
+.section-hero .heading--1 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+.section-hero .hero-text {
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+}
+.section-hero .btn {
+  font-size: 1.5rem;
+  padding: 1rem 4rem;
+  border: none;
+  background-color: rgb(253, 100, 45);
+  color: #fff;
+  border-radius: 100px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
