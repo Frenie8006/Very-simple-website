@@ -1,1 +1,4 @@
-/*# sourceMappingURL=features.css.map */
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}/*# sourceMappingURL=features.css.map */
