@@ -104,5 +104,20 @@ body {
 }
 .features__container {
   background-color: #eee;
-  height: 35rem;
+  text-align: center;
+  padding: 10rem 2rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+}
+.features__icon {
+  font-size: 3rem;
+  color: #6db3f8;
+  margin-bottom: 1rem;
+}
+.features__text {
+  font-size: 1.2rem;
+}
+
+.heading--3 {
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
 }/*# sourceMappingURL=main.css.map */
